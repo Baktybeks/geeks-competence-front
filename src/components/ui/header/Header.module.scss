@@ -1,0 +1,66 @@
+.header {
+  margin: 0 auto;
+  position: relative;
+  background-color: #2b2e35;
+  color: #fff;
+
+  nav {
+    padding: 20px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+
+    ul {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0;
+
+      li {
+        font-size: 15px;
+        margin-right: 20px;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+
+          &.active {
+            font-weight: bold
+          }
+        }
+      }
+    }
+  }
+}
+
+.auth {
+  display: flex;
+  column-gap: 30px;
+
+  &_name {
+    color: #fee742 !important;
+  }
+
+  p {
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    &.active {
+      font-weight: bold;
+    }
+  }
+}
+
+.btn {
+  cursor: pointer;
+}

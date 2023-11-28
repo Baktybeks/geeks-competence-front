@@ -1,0 +1,193 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+html,
+body
+    font-family: Arial, Helvetica, FreeSans, sans-serif
+    font-size: 14px
+    line-height: 1.42857143
+
+.table_main
+    //min-width: 100vw
+    height: calc(100vh - 60px)
+    overflow-x: auto
+    background: #f4f5f7
+
+.tr
+    margin-bottom: 10px
+    border: 1px solid #000
+    background-color: red
+
+
+.confluenceTh
+    position: sticky
+    left: 0
+    border: 1px solid #c1c7d0
+    padding: 7px 10px
+    text-align: left
+    background-color: #f4f5f7
+    min-width: 140px
+    vertical-align: top
+
+.confluenceTh h5
+    color: #5e6c84
+    font-size: 14px
+    margin-top: 3px
+
+
+
+.stickyEvery
+    position: sticky
+    top: 0
+    left: 0
+    z-index: 15
+
+.stickyHeader
+    position: sticky
+    top: 0
+    z-index: 1
+
+.stickThLeft
+    position: sticky
+    top: 44px
+    left: 0
+    border: none
+    border-top: 1px solid #c1c7d0
+    z-index: 10
+
+.stickyLeftHeader
+    position: sticky
+    top: 35px
+
+.stickyMain
+    position: relative
+    display: flex
+    align-items: center
+
+.td_label
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    padding-bottom: 4px
+
+    &__span
+        color: #91222a
+        margin-left: 5px
+
+.btnIcon_add
+    cursor: pointer
+    margin-left: 5px
+    width: 15px
+    height: 15px
+
+.btnIcon_delete
+    cursor: pointer
+    width: 20px
+    height: 20px
+
+
+.div__td
+    display: flex
+    flex-direction: column
+
+    &_subtitle
+        display: flex
+        align-items: center
+        justify-content: flex-start
+
+.div__label
+    margin: 10px 0 0 5px
+    display: flex
+    justify-content: flex-start
+    flex-direction: column
+
+.td__Width
+    min-width: 290px
+
+.table
+    border-collapse: collapse
+    position: relative
+
+.isChecked
+    color: #27a627
+
+.btnAddQuestion
+    color: #27a627
+    cursor: pointer
+
+.checkbox
+    background-color: #ffffff
+    color: #000000
+
+    &:disabled
+        background-color: #102ce7
+        color: #27a627
+
+.content
+    width: 400px
+    margin: 0 auto
+    background: #1D1D1D
+    border-radius: 15px
+
+    .title
+        padding: 1rem
+
+        .p
+            color: #fff
+            font-size: 1.5rem
+            text-align: center
+
+.addSubtitle
+    display: flex
+    align-items: center
+    justify-content: center
+    margin-bottom: 20px
+    cursor: pointer
+
+    &_img
+        width: 20px
+        height: 20px
+
+    &_title
+        margin: 5px 0 0 5px
+
+
+.form
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    row-gap: 1rem
+    padding: 0 30px 30px
+
+    input, .selectRole
+        font-size: 16px
+        padding: 5px 20px
+        width: 400px
+        background: #FFFFFF
+        border: 1px solid #000000
+        border-radius: 15px
+
+        &::placeholder
+            text-align: start
+            font-size: 1.2rem
+
+    .btnModal
+        width: 200px
+        text-align: center
+        font-size: 16px
+        padding: 5px 20px
+        background: #005DF2
+        border-radius: 15px
+        color: #fff
+
+.selectedUserId
+    text-align: center
+
+.level_img
+    display: flex
+    align-items: center
+    justify-content: flex-start
